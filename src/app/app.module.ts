@@ -14,7 +14,6 @@ import { ButtonComponent } from './components/button/button.component';
 import { SecondStepComponent } from './components/second-step/second-step.component';
 import { ConfirmStepComponent } from './components/confirm-step/confirm-step.component';
 import { CompletedRegistrationComponent } from './components/completed-registration/completed-registration.component';
-import { SelectComponent } from './components/select/select.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { SelectComponent } from './components/select/select.component';
     SecondStepComponent,
     ConfirmStepComponent,
     CompletedRegistrationComponent,
-    SelectComponent,
   ],
   imports: [
     BrowserModule,
