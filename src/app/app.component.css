@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+  }
+}

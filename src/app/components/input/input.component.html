@@ -1,0 +1,20 @@
+<div class="input-group">
+  <span class="input-group-text container-icon"><i [class]="icon"></i></span>
+  <ng-container *ngIf="!!control">
+    <input
+      class="form-control"
+      [type]="type"
+      [placeholder]="label"
+      [formControl]="control"
+    />
+  </ng-container>
+  <ng-container *ngIf="!control">
+    <input
+      class="form-control"
+      [type]="type"
+      [placeholder]="label"
+      [(ngModel)]="valueInput"
+      (ngModelChange)="onChange($event)"
+    />
+  </ng-container>
+</div>

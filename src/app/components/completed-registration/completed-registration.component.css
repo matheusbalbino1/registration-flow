@@ -1,0 +1,7 @@
+:host {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-green-aqua-500);
+}
